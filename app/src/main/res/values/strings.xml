@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Буквоцифры</string>
+    <string name="title_main">🔤 БУКВОЦИФРЫ 🔢</string>
+    <string name="btn_rules">📋 ПРАВИЛА</string>
+    <string name="btn_about">👥 АВТОРЫ</string>
+    <string name="btn_achievements">🏆 ДОСТИЖЕНИЯ</string>
+    <string name="btn_back">← НАЗАД</string>
+    <string name="btn_start_speed">⚡ НА СКОРОСТЬ</string>
+    <string name="rules_title">📋 ПРАВИЛА</string>
+    <string name="about_title">👥 АВТОРЫ</string>
+    <string name="achievements_title">🏆 ДОСТИЖЕНИЯ</string>
+    <string name="score_prefix">Счёт: </string>
+    <string name="stars_prefix">Звёзды: </string>
+    <string name="streak_prefix">Серия: </string>
+    <string name="result_correct">Верно! 🎉</string>
+    <string name="result_wrong">Попробуй ещё 😊</string>
+    <string name="result_timeout">Время вышло! ⏰</string>
+    <string name="task_find_digit">Найди цифру: </string>
+    <string name="task_find_letter">Найди букву: </string>
+    <string name="best_score">Лучший счёт: </string>
+    <string name="total_stars">Всего звёзд: </string>
+    <string name="games_played">Сыграно игр: </string>
+    <string name="achievement_first_star">⭐ Первая звезда</string>
+    <string name="achievement_ten_streak">🔥 10 правильных подряд</string>
+    <string name="achievement_all_letters">📚 Все буквы изучены</string>
+    <string name="achievement_locked">🔒 Не получено</string>
+</resources>

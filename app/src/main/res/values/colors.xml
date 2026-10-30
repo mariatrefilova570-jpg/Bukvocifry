@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#1E3A5F</color>
+    <color name="primary_text">#FFFFFF</color>
+    <color name="secondary_text">#B0C4DE</color>
+    <color name="accent_yellow">#F5C542</color>
+    <color name="accent_purple">#9B59B6</color>
+    <color name="accent_green">#2ECC71</color>
+    <color name="accent_red">#E74C3C</color>
+    <color name="card_background">#2C4A6E</color>
+    <color name="timer_normal">#2ECC71</color>
+    <color name="timer_warning">#E74C3C</color>
+</resources>

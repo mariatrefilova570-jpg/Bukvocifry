@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvRulesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📋 ПРАВИЛА"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Именно этот блок отвечает за прокрутку -->
+    <ScrollView
+        android:id="@+id/scrollRules"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toBottomOf="@id/tvRulesTitle"
+        app:layout_constraintBottom_toTopOf="@id/btnBack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="@color/card_background">
+
+            <TextView
+                android:id="@+id/tvRulesText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textSize="16sp"
+                android:lineSpacingExtra="8dp"
+                android:textColor="@color/primary_text"
+                android:text="🔤 БУКВОЦИФРЫ — это развивающая игра.\n\n🔹 На экране появляется задание, например: «Найди цифру: А» или «Найди букву: 1».\n\n🔹 Ниже расположены три кнопки с вариантами ответа.\n\n🔹 Нажми на правильный вариант.\n\n✅ Если ответ верный — ты получаешь очко и видишь «Верно! 🎉». За каждые 3 правильных ответа подряд даётся 1 звезда (⭐).\n\n❌ Если ошибся — появится «Попробуй ещё 😊», а серия сбрасывается.\n\n⏰ В режиме «На скорость» даётся 10 секунд на ответ. Успей ответить!\n\n🏆 Все результаты и достижения сохраняются в разделе «Достижения».\n\n🎯 Играй каждый день, чтобы улучшать свой результат!"/>
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+    <!-- Кнопка Назад -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:text="← НАЗАД"
+        android:textSize="18sp"
+        app:cornerRadius="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
